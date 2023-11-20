@@ -1,0 +1,148 @@
+body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  font-family: "Open Sans", sans-serif;
+
+  background: linear-gradient(90deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
+
+  min-height: 100vh;
+}
+
+.page {
+  width: 1005px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+nav {
+  display: flex;
+  width: 1005px;
+  height: 26px;
+  justify-content: space-between;
+
+  color: #1f1534;
+  margin: auto 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #1f1534;
+  text-decoration: none;
+}
+
+ul li a {
+  opacity: 0.5;
+  margin-left: 48px;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+h1,
+ul {
+  font-family: "Mulish", sans-serif;
+}
+
+main {
+  display: inline-flex;
+  width: 1005px;
+  height: 433px;
+  margin: 106px 0 0 0;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1f1534;
+
+  font-weight: normal;
+  margin: 0;
+  width: 490px;
+}
+
+h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+section {
+  text-align: left;
+}
+
+section p {
+  width: 439px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+  font-weight: 400;
+  margin: 40px 0;
+}
+
+button {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+
+  background: #69b99d;
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  display: inline-flex;
+  height: 56px;
+  padding: 14px 32px 15px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+button:hover {
+  background: #4ea788;
+}
+
+#caixaFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 1005px;
+  height: 88px;
+  position: relative;
+  bottom: 0;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  /* position: relative; */
+  /* bottom: 30px; */
+  /* padding: 0;
+  margin: auto 30px; */
+}
+
+footer a {
+  font-weight: bold;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
